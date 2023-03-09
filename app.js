@@ -15,7 +15,7 @@ app.use(errorHandler);
 
 if(process.env.NODE_ENV != "test"){
     app.listen(port, () => {
-        console.log(`Listening on http://localhost:${port}`)
+        console.log(`App listening on http://localhost:${port}`)
     })
 }
 
